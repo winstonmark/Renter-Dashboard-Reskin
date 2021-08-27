@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS02 - Login, Invite Member",Firefox 91.0,,,2021-08-27 09:45:41,2021-08-27 09:46:38,57.795s,PASSED
+,,,,,,,
+Test Cases/Login/login_renterdash,Firefox 91.0,,,2021-08-27 09:45:41,2021-08-27 09:46:12,30.391s,PASSED
+"openBrowser("""")",Firefox 91.0,,,2021-08-27 09:45:42,2021-08-27 09:45:51,8.670s,PASSED
+"navigateToUrl(""https://renterdashboard.winston.cerberuslink.net/login"")",Firefox 91.0,,,2021-08-27 09:45:51,2021-08-27 09:45:55,4.252s,PASSED
+"setText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__email""), Email_Jerrold)",Firefox 91.0,,,2021-08-27 09:45:55,2021-08-27 09:45:57,1.822s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__password""), ""pK4N7w/gtfGay7FzPRwAOg=="")",Firefox 91.0,,,2021-08-27 09:45:57,2021-08-27 09:45:58,0.542s,PASSED
+"click(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in""))",Firefox 91.0,,,2021-08-27 09:45:58,2021-08-27 09:45:58,0.726s,PASSED
+"delay(10, STOP_ON_FAILURE)",Firefox 91.0,,,2021-08-27 09:45:58,2021-08-27 09:46:08,10.080s,PASSED
+"waitForElementVisible(findTestObject(""Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted""), 10, STOP_ON_FAILURE)",Firefox 91.0,,,2021-08-27 09:46:08,2021-08-27 09:46:12,3.260s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member,Firefox 91.0,,,2021-08-27 09:46:12,2021-08-27 09:46:38,26.795s,PASSED
+"click(findTestObject(""Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted""))",Firefox 91.0,,,2021-08-27 09:46:12,2021-08-27 09:46:13,0.635s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Actions""))",Firefox 91.0,,,2021-08-27 09:46:13,2021-08-27 09:46:14,0.615s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_InviteMember""))",Firefox 91.0,,,2021-08-27 09:46:14,2021-08-27 09:46:14,0.625s,PASSED
+delay(5),Firefox 91.0,,,2021-08-27 09:46:14,2021-08-27 09:46:19,5.017s,PASSED
+"setText(findTestObject(""Actions_InviteMember/Page_Poplar Homes/input_email""), ""winston@poplarhomes.com"")",Firefox 91.0,,,2021-08-27 09:46:19,2021-08-27 09:46:20,0.755s,PASSED
+delay(5),Firefox 91.0,,,2021-08-27 09:46:20,2021-08-27 09:46:25,5.013s,PASSED
+"if (verifyElementClickable(findTestObject(""Actions_InviteMember/Page_Poplar Homes/button_Send Invitation""), CONTINUE_ON_FAILURE))",Firefox 91.0,,,2021-08-27 09:46:25,2021-08-27 09:46:26,1.074s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation""))",Firefox 91.0,,,2021-08-27 09:46:26,2021-08-27 09:46:27,1.126s,PASSED
+"if (waitForElementVisible(findTestObject(""Actions_InviteMember/Page_Poplar Homes/divToast_Successful""), 5))",Firefox 91.0,,,2021-08-27 09:46:27,2021-08-27 09:46:33,6.253s,PASSED
+delay(5),Firefox 91.0,,,2021-08-27 09:46:33,2021-08-27 09:46:38,5.016s,PASSED

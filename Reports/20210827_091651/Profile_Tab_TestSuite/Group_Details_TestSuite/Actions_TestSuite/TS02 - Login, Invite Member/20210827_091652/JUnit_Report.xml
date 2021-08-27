@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02 - Login, Invite Member" time="59.354" tests="2" failures="0" errors="0">
+   <testsuite name="TS02 - Login, Invite Member" tests="2" failures="0" errors="0" time="59.354" skipped="0" timestamp="2021-08-27 09:17:12" hostname="admin - DESKTOP-53OG93O" id="Test Suites/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS02 - Login, Invite Member">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210827_091651\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS02 - Login, Invite Member\\20210827_091652"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210827_091651\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS02 - Login, Invite Member\\20210827_091652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - DESKTOP-53OG93O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Firefox 91.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="d618597b-7ccb-4318-ac40-c780e1910a55"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/login_renterdash" time="30.327" classname="Test Cases/Login/login_renterdash" status="PASSED">
+         <system-out><![CDATA[2021-08-27 09:17:12 - [TEST_CASE][PASSED] - Test Cases/Login/login_renterdash: Test Cases/Login/login_renterdash
+
+2021-08-27 09:17:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-08-27 09:17:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-08-27 09:17:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-27 09:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-08-27 09:17:22 - [TEST_STEP][PASSED] - navigateToUrl("https://renterdashboard.winston.cerberuslink.net/login"): Navigate to 'https://renterdashboard.winston.cerberuslink.net/login' successfully
+
+2021-08-27 09:17:26 - [MESSAGE][PASSED] - Navigate to 'https://renterdashboard.winston.cerberuslink.net/login' successfully
+
+2021-08-27 09:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/input__email"), "jerrold+imusgrove32@onerent.co"): Text 'jerrold+imusgrove32@onerent.co' is set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'
+
+2021-08-27 09:17:27 - [MESSAGE][PASSED] - Text 'jerrold+imusgrove32@onerent.co' is set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'
+
+2021-08-27 09:17:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/input__password"), "pK4N7w/gtfGay7FzPRwAOg=="): Text ****** has been set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'
+
+2021-08-27 09:17:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'
+
+2021-08-27 09:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in")): Object: 'Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in' is clicked on
+
+2021-08-27 09:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in' is clicked on
+
+2021-08-27 09:17:29 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2021-08-27 09:17:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-08-27 09:17:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted' is visible
+
+2021-08-27 09:17:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member" time="26.953" classname="Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member" status="PASSED">
+         <system-out><![CDATA[2021-08-27 09:17:43 - [TEST_CASE][PASSED] - Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member: Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member
+
+2021-08-27 09:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted")): Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-08-27 09:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-08-27 09:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Actions")): Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-08-27 09:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-08-27 09:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_InviteMember/Page_Poplar Homes/button_InviteMember")): Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_InviteMember' is clicked on
+
+2021-08-27 09:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_InviteMember' is clicked on
+
+2021-08-27 09:17:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-08-27 09:17:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-08-27 09:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("Actions_InviteMember/Page_Poplar Homes/input_email"), "winston@poplarhomes.com"): Text 'winston@poplarhomes.com' is set on object 'Object Repository/Actions_InviteMember/Page_Poplar Homes/input_email'
+
+2021-08-27 09:17:51 - [MESSAGE][PASSED] - Text 'winston@poplarhomes.com' is set on object 'Object Repository/Actions_InviteMember/Page_Poplar Homes/input_email'
+
+2021-08-27 09:17:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-08-27 09:17:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-08-27 09:17:56 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Actions_InviteMember/Page_Poplar Homes/button_Send Invitation"), CONTINUE_ON_FAILURE)): null
+
+2021-08-27 09:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation' is clickable
+
+2021-08-27 09:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation")): Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation' is clicked on
+
+2021-08-27 09:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation' is clicked on
+
+2021-08-27 09:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation")): Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation' is clicked on
+
+2021-08-27 09:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation' is clicked on
+
+2021-08-27 09:17:58 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Actions_InviteMember/Page_Poplar Homes/divToast_Successful"), 5)): Web element with id: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/divToast_Successful' located by '//div[@id='kvof51erb']' not found
+
+2021-08-27 09:18:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='kvof51erb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-27 09:18:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Actions_InviteMember/Page_Poplar Homes/divToast_Successful' located by '//div[@id='kvof51erb']' not found
+
+2021-08-27 09:18:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-08-27 09:18:10 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-27 09:17:12 - [TEST_SUITE][PASSED] - TS02 - Login, Invite Member: Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

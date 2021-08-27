@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20210827_091651</name>
+   <tag></tag>
+   <displayName>20210827_091651</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210827_091651/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS02 - Login, Invite Member/20210827_091652</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Firefox</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210827_091651/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS02 - Login, Invite Member/20210827_091654</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210827_091651/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS02 - Login, Invite Member/20210827_091656</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Edge</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Profile_Tab_TSCollection/Profile_Tab_TSC/Group_Details_TSC/Actions_Web_TSC/TSC02 - Login, Invite Member</testSuiteCollectionId>
+</ReportCollectionEntity>

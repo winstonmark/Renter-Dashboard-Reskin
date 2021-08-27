@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "AEBED272464E8A290C228EB4003DF0A3",
+  "keywordClasses": [
+    {
+      "name": "com.poplar.RenterProspect",
+      "keywordMethods": [
+        {
+          "name": "addRenterDetails",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

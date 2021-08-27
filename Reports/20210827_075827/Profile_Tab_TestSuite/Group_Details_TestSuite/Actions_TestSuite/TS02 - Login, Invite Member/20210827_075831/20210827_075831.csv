@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS02 - Login, Invite Member",,,,2021-08-27 08:00:09,2021-08-27 08:00:21,11.461s,FAILED
+,,,,,,,
+Test Cases/Login/login_renterdash,,,,2021-08-27 08:00:10,2021-08-27 08:00:19,9.346s,FAILED
+"openBrowser("""")",,,,2021-08-27 08:00:11,2021-08-27 08:00:19,8.399s,FAILED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member,,,,2021-08-27 08:00:19,2021-08-27 08:00:21,1.550s,FAILED
+"click(findTestObject(""Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-27 08:00:20,2021-08-27 08:00:21,0.289s,FAILED

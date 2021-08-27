@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS01 - Login, Add Member",Chrome 92.0.4515.159,,,2021-08-26 16:03:27,2021-08-26 16:04:28,1m - 1.123s,PASSED
+,,,,,,,
+Test Cases/Login/login_renterdash,Chrome 92.0.4515.159,,,2021-08-26 16:03:28,2021-08-26 16:04:01,33.219s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-26 16:03:29,2021-08-26 16:03:33,4.210s,PASSED
+"navigateToUrl(""https://renterdashboard.winston.cerberuslink.net/login"")",Chrome 92.0.4515.159,,,2021-08-26 16:03:33,2021-08-26 16:03:37,3.480s,PASSED
+"setText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__email""), ""jerrold+imusgrove32@onerent.co"")",Chrome 92.0.4515.159,,,2021-08-26 16:03:37,2021-08-26 16:03:38,1.726s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__password""), ""pK4N7w/gtfGay7FzPRwAOg=="")",Chrome 92.0.4515.159,,,2021-08-26 16:03:38,2021-08-26 16:03:39,0.742s,PASSED
+"click(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in""))",Chrome 92.0.4515.159,,,2021-08-26 16:03:39,2021-08-26 16:03:40,0.601s,PASSED
+"delay(20, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-08-26 16:03:40,2021-08-26 16:04:00,20.124s,PASSED
+"waitForElementVisible(findTestObject(""Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted""), 20, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-08-26 16:04:00,2021-08-26 16:04:01,1.024s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,Chrome 92.0.4515.159,,,2021-08-26 16:04:01,2021-08-26 16:04:28,27.179s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",Chrome 92.0.4515.159,,,2021-08-26 16:04:02,2021-08-26 16:04:03,0.634s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions""))",Chrome 92.0.4515.159,,,2021-08-26 16:04:03,2021-08-26 16:04:03,0.556s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member""))",Chrome 92.0.4515.159,,,2021-08-26 16:04:03,2021-08-26 16:04:04,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName""), ""Bea"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:04,2021-08-26 16:04:05,0.987s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName""), ""Alonzo"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:05,2021-08-26 16:04:06,1.073s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1""), ""beaalonzo@gmail.com"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:06,2021-08-26 16:04:07,1.077s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone""), ""1 (231) 231-2312"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:07,2021-08-26 16:04:08,1.095s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb""), ""June"", true)",Chrome 92.0.4515.159,,,2021-08-26 16:04:08,2021-08-26 16:04:10,1.600s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day123456789101112131415161718192021_71ec95""), ""15"", true)",Chrome 92.0.4515.159,,,2021-08-26 16:04:10,2021-08-26 16:04:12,1.979s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year20212020201920182017201620152014_f874ed""), ""1967"", true)",Chrome 92.0.4515.159,,,2021-08-26 16:04:12,2021-08-26 16:04:16,4.189s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress""), ""32"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:16,2021-08-26 16:04:17,0.975s,PASSED
+delay(5),Chrome 92.0.4515.159,,,2021-08-26 16:04:17,2021-08-26 16:04:22,5.009s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/p_300 Vesey Street, New York, NY, USA""))",Chrome 92.0.4515.159,,,2021-08-26 16:04:22,2021-08-26 16:04:22,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__unitNumber""), ""121"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:22,2021-08-26 16:04:24,1.172s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Employed""))",Chrome 92.0.4515.159,,,2021-08-26 16:04:24,2021-08-26 16:04:24,0.576s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer""), ""GMA Network"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:24,2021-08-26 16:04:25,1.022s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement""), ""Test"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:25,2021-08-26 16:04:26,0.886s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__declaredMonthlyIncome""), ""2000"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:26,2021-08-26 16:04:27,0.938s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail""), ""beaalonzo@gmanetwork.com"")",Chrome 92.0.4515.159,,,2021-08-26 16:04:27,2021-08-26 16:04:28,1.075s,PASSED

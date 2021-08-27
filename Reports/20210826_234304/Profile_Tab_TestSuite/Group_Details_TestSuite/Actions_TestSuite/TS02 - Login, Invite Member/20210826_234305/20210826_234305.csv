@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS02 - Login, Invite Member",Chrome 92.0.4515.159,,,2021-08-26 23:43:12,2021-08-26 23:45:07,1m - 55.109s,FAILED
+,,,,,,,
+Test Cases/Login/login_renterdash,Chrome 92.0.4515.159,,,2021-08-26 23:43:13,2021-08-26 23:43:41,28.151s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-08-26 23:43:14,2021-08-26 23:43:19,4.972s,PASSED
+"navigateToUrl(""https://renterdashboard.winston.cerberuslink.net/login"")",Chrome 92.0.4515.159,,,2021-08-26 23:43:19,2021-08-26 23:43:24,4.652s,PASSED
+"setText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__email""), ""jerrold+imusgrove32@onerent.co"")",Chrome 92.0.4515.159,,,2021-08-26 23:43:24,2021-08-26 23:43:26,1.868s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__password""), ""pK4N7w/gtfGay7FzPRwAOg=="")",Chrome 92.0.4515.159,,,2021-08-26 23:43:26,2021-08-26 23:43:27,0.824s,PASSED
+"click(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in""))",Chrome 92.0.4515.159,,,2021-08-26 23:43:27,2021-08-26 23:43:27,0.650s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-08-26 23:43:27,2021-08-26 23:43:38,10.193s,PASSED
+"waitForElementVisible(findTestObject(""Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted""), 10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-08-26 23:43:38,2021-08-26 23:43:41,3.712s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC02 - Invite Member,Chrome 92.0.4515.159,,,2021-08-26 23:43:41,2021-08-26 23:45:07,1m - 26.046s,FAILED
+"click(findTestObject(""Actions_InviteMember/Page_Poplar Homes/div_Group DetailsCompleted""))",Chrome 92.0.4515.159,,,2021-08-26 23:43:42,2021-08-26 23:43:43,0.554s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Actions""))",Chrome 92.0.4515.159,,,2021-08-26 23:43:43,2021-08-26 23:43:43,0.537s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_InviteMember""))",Chrome 92.0.4515.159,,,2021-08-26 23:43:43,2021-08-26 23:43:44,0.560s,PASSED
+delay(5),Chrome 92.0.4515.159,,,2021-08-26 23:43:44,2021-08-26 23:43:49,5.017s,PASSED
+"setText(findTestObject(""Actions_InviteMember/Page_Poplar Homes/input_email""), ""winston@poplarhomes.com"")",Chrome 92.0.4515.159,,,2021-08-26 23:43:49,2021-08-26 23:43:50,1.007s,PASSED
+delay(5),Chrome 92.0.4515.159,,,2021-08-26 23:43:50,2021-08-26 23:43:55,5.019s,PASSED
+"if (verifyElementClickable(findTestObject(""Actions_InviteMember/Page_Poplar Homes/button_Send Invitation""), CONTINUE_ON_FAILURE))",Chrome 92.0.4515.159,,,2021-08-26 23:43:55,2021-08-26 23:43:56,1.087s,PASSED
+"click(findTestObject(""Object Repository/Actions_InviteMember/Page_Poplar Homes/button_Send Invitation""))",Chrome 92.0.4515.159,,,2021-08-26 23:43:56,2021-08-26 23:43:57,0.625s,PASSED
+"if (verifyElementVisible(findTestObject(""Actions_InviteMember/Page_Poplar Homes/div_Successfully sent email invitations""), CONTINUE_ON_FAILURE))",Chrome 92.0.4515.159,,,2021-08-26 23:43:57,2021-08-26 23:44:29,32.814s,FAILED
+else,Chrome 92.0.4515.159,,,2021-08-26 23:44:29,2021-08-26 23:45:07,37.818s,FAILED
