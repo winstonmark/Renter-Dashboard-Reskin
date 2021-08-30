@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://renterdashboard.winston.cerberuslink.net/login')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'), GlobalVariable.Email_Jerrold)
+WebUI.setText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'), GlobalVariable.Email_Jerrold2)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'), 'pK4N7w/gtfGay7FzPRwAOg==')
 

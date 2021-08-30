@@ -9,4 +9,9 @@
       <initValue>'jerrold+imusgrove32@onerent.co'</initValue>
       <name>Email_Jerrold</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jerrold+hthornhill334@onerent.co'</initValue>
+      <name>Email_Jerrold2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

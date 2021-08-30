@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_renterdash_datadriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>311aa04f-027d-40f5-980b-182128fde31e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1aa7fcba-f4bb-4b53-9965-3f8755b1c900</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88a9935f-8c2c-41db-9712-030e045013dd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

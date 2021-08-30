@@ -27,9 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'), 'Alonzo')
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'), 'beaalonzo@gmail.com')
-
-CustomKeywords.'com.poplar.RenterProspect.addRenterDetails'()
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'), 'beaalonzoyum@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'), '1 (231) 231-2312')
 
@@ -62,5 +60,5 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 
 WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Save'))
 
-WebUI.delay(5)
+WebUI.delay(20)
 

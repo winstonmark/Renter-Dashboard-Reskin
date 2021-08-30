@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check CompleteNow Banner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bd805fd-7aab-4e29-be40-eab2866f3d83</testCaseGuid>
+   <variable>
+      <defaultValue>'Complete your requirements now and apply for homes you love'</defaultValue>
+      <description></description>
+      <id>74ab8d5c-028d-4532-a2d1-e9b243fc498b</id>
+      <masked>false</masked>
+      <name>completeNowText</name>
+   </variable>
+</TestCaseEntity>
