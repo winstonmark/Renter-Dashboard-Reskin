@@ -15,7 +15,7 @@
       <guid>0146e16a-ba36-4fc4-b96d-708a4f255075</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/login_renterdash_datadriven</testCaseId>
+      <testCaseId>Test Cases/Login/TC02 - login_renterdash_datadriven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5b7c36c0-7b7d-4936-bda4-63fe86e6a704</id>

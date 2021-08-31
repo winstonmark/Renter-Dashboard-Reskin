@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>login_renterdash_datadriven</name>
+   <name>TC02 - login_renterdash_datadriven</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>311aa04f-027d-40f5-980b-182128fde31e</testCaseGuid>

@@ -70,5 +70,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Actions_Addcosigner/Pag
 
 WebUI.click(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/button_Save'))
 
-WebUI.closeBrowser()
+WebUI.delay(20)
 

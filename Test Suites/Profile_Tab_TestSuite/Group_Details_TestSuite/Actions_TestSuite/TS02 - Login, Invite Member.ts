@@ -15,7 +15,7 @@
       <guid>dfb09da3-54d9-4d44-9385-1d7cc38b371c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/login_renterdash</testCaseId>
+      <testCaseId>Test Cases/Login/TC01 - login_renterdash</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
