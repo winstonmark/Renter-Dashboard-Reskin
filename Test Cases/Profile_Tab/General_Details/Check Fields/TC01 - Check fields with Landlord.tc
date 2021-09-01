@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>39e27bb1-263a-4e6c-88a5-4d85b0fff30c</testCaseGuid>
+   <variable>
+      <defaultValue>'jerrold+rmatney3222@onerent.co'</defaultValue>
+      <description></description>
+      <id>8aa72613-df6f-4900-a98c-02932a5c55e7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
 </TestCaseEntity>

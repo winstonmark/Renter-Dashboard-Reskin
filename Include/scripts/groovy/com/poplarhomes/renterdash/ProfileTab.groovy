@@ -48,7 +48,7 @@ class ProfileTab {
 
 	@Given("User is logged in the Poplar Homes Renter Dashboard")
 	def log_in_renterdash() {
-		WebUI.callTestCase(findTestCase("Test Cases/Login/login_renterdash"), null, FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase("Test Cases/Login/TC01 - login_renterdash"), null, FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("User is in the Profile Tab")
@@ -61,27 +61,27 @@ class ProfileTab {
 	def check_general_details_subtab_exist() {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check General Details Sub-tab"), null, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("User should see Group Details sub-tab")
 	def check_group_details_subtab_exist() {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check Group Details Sub-tab"), null, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("User should see Employment Details sub-tab")
 	def check_employment_details_subtab() {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check Employment Details Sub-tab"), null, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("User should see Documents sub-tab")
 	def check_documents_subtab() {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check Documents Sub-tab"), null, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("User should see Credit Check sub-tab")
 	def check_credits_subtab() {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check Credit Sub-tab"), null, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("User should also see the Complete Now Banner")
 	def check_completenow_banner () {
 		WebUI.callTestCase(findTestCase("Test Cases/Profile_Tab/Check CompleteNow Banner"), null, FailureHandling.STOP_ON_FAILURE)

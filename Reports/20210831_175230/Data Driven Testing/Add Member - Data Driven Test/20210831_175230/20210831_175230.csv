@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Member - Data Driven Test,,,,2021-08-31 17:52:51,2021-08-31 17:52:59,7.874s,FAILED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-31 17:52:53,2021-08-31 17:52:56,2.972s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2021-08-31 17:52:53,2021-08-31 17:52:53,0.046s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-31 17:52:55,2021-08-31 17:52:56,1.246s,FAILED
+Start listener action : sampleAfterTestCase,,,,2021-08-31 17:52:56,2021-08-31 17:52:56,0.005s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-31 17:52:57,2021-08-31 17:52:57,0.373s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2021-08-31 17:52:57,2021-08-31 17:52:57,0.008s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-31 17:52:57,2021-08-31 17:52:57,0.281s,FAILED
+Start listener action : sampleAfterTestCase,,,,2021-08-31 17:52:57,2021-08-31 17:52:57,0.009s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-31 17:52:58,2021-08-31 17:52:58,0.248s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2021-08-31 17:52:58,2021-08-31 17:52:58,0.003s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-31 17:52:58,2021-08-31 17:52:58,0.203s,FAILED
+Start listener action : sampleAfterTestCase,,,,2021-08-31 17:52:58,2021-08-31 17:52:58,0.008s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-31 17:52:58,2021-08-31 17:52:59,0.272s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2021-08-31 17:52:58,2021-08-31 17:52:58,0.003s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-31 17:52:58,2021-08-31 17:52:59,0.222s,FAILED
+Start listener action : sampleAfterTestCase,,,,2021-08-31 17:52:59,2021-08-31 17:52:59,0.011s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-31 17:52:59,2021-08-31 17:52:59,0.225s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2021-08-31 17:52:59,2021-08-31 17:52:59,0.003s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-31 17:52:59,2021-08-31 17:52:59,0.186s,FAILED
+Start listener action : sampleAfterTestCase,,,,2021-08-31 17:52:59,2021-08-31 17:52:59,0.006s,PASSED

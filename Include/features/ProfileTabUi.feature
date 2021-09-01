@@ -17,6 +17,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+
 @Profile
 Feature: Profile Tab UI
   
@@ -33,5 +34,4 @@ Feature: Profile Tab UI
     And User should see Documents sub-tab
     And User should see Credit Check sub-tab
     And User should also see the Complete Now Banner
-
-
+    

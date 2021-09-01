@@ -23,42 +23,42 @@ WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Home
 
 WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member'))
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'), 'Bea')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'), fname)
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'), 'Alonzo')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'), lname)
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'), 'beaalonzoyum@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'), email)
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'), '1 (231) 231-2312')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
-    'June', true)
+    birthmonth , true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day123456789101112131415161718192021_71ec95'), 
-    '15', true)
+    birthday, true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year20212020201920182017201620152014_f874ed'), 
-    '1967', true)
+    birthyear, true)
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress'), '32')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress'), address)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/p_300 Vesey Street, New York, NY, USA'))
+WebUI.click(findTestObject('Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0'))
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__unitNumber'), '121')
 
 WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Employed'))
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer'), 'GMA Network')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer'), employer)
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement'), 'Test')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement'), jobtitle)
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__declaredMonthlyIncome'), '2000')
 
-WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail'), 'beaalonzo@gmanetwork.com')
+WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail'), workemail)
 
 WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Save'))
 
-WebUI.delay(20)
+WebUI.delay(30)
 
