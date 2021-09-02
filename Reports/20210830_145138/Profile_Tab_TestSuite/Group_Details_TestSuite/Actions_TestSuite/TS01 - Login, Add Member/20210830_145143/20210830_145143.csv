@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-"TS01 - Login, Add Member",,,,2021-08-30 14:56:31,2021-08-30 14:56:36,4.573s,FAILED
-,,,,,,,
-Test Cases/Login/login_renterdash,,,,2021-08-30 14:56:32,2021-08-30 14:56:35,3.250s,FAILED
-"openBrowser("""")",,,,2021-08-30 14:56:33,2021-08-30 14:56:35,2.402s,FAILED
-,,,,,,,
-Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,,,,2021-08-30 14:56:35,2021-08-30 14:56:36,0.813s,FAILED
-"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",,,,2021-08-30 14:56:36,2021-08-30 14:56:36,0.203s,FAILED

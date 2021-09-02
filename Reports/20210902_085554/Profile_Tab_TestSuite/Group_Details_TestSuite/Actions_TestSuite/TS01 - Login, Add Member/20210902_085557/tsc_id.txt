@@ -1,1 +1,0 @@
-Test Suites/Collections/ProfileTab_TSC/GroupDetails_TSC/Actions_TSC/TSC 01 - Login, Add Member

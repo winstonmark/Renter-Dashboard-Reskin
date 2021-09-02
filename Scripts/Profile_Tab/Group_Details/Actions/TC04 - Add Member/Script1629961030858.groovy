@@ -62,5 +62,5 @@ WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Save'))
 
 WebUI.delay(30)
 
-WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Cancel'))
+WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Cancel'),FailureHandling.CONTINUE_ON_FAILURE)
 
