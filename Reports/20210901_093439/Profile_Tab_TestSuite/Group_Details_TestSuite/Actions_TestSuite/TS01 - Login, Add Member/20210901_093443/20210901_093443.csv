@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS01 - Login, Add Member",Chrome 92.0.4515.159,,,2021-09-01 09:36:41,2021-09-01 09:37:39,57.466s,FAILED
+,,,,,,,
+Test Cases/Login/TC01 - login_renterdash,Chrome 92.0.4515.159,,,2021-09-01 09:36:42,2021-09-01 09:37:21,39.109s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 92.0.4515.159,,,2021-09-01 09:36:43,2021-09-01 09:36:43,0.033s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-09-01 09:36:44,2021-09-01 09:36:48,4.226s,PASSED
+navigateToUrl(URL),Chrome 92.0.4515.159,,,2021-09-01 09:36:48,2021-09-01 09:36:53,5.008s,PASSED
+"setText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__email""), Email_Jerrold2)",Chrome 92.0.4515.159,,,2021-09-01 09:36:53,2021-09-01 09:37:04,10.359s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__password""), ""pK4N7w/gtfGay7FzPRwAOg=="")",Chrome 92.0.4515.159,,,2021-09-01 09:37:04,2021-09-01 09:37:04,0.650s,PASSED
+"click(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in""))",Chrome 92.0.4515.159,,,2021-09-01 09:37:04,2021-09-01 09:37:05,0.522s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-01 09:37:05,2021-09-01 09:37:15,10.082s,PASSED
+"waitForElementVisible(findTestObject(""Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted""), 10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-01 09:37:15,2021-09-01 09:37:21,6.549s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 92.0.4515.159,,,2021-09-01 09:37:21,2021-09-01 09:37:21,0.003s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,Chrome 92.0.4515.159,,,2021-09-01 09:37:21,2021-09-01 09:37:39,17.575s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 92.0.4515.159,,,2021-09-01 09:37:22,2021-09-01 09:37:22,0.001s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",Chrome 92.0.4515.159,,,2021-09-01 09:37:23,2021-09-01 09:37:23,0.507s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions""))",Chrome 92.0.4515.159,,,2021-09-01 09:37:23,2021-09-01 09:37:34,10.629s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member""))",Chrome 92.0.4515.159,,,2021-09-01 09:37:34,2021-09-01 09:37:34,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName""), fname)",Chrome 92.0.4515.159,,,2021-09-01 09:37:34,2021-09-01 09:37:35,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName""), lname)",Chrome 92.0.4515.159,,,2021-09-01 09:37:35,2021-09-01 09:37:36,0.770s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1""), email)",Chrome 92.0.4515.159,,,2021-09-01 09:37:36,2021-09-01 09:37:37,0.853s,PASSED
+"setText(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone""), ""1 (231) 231-2312"")",Chrome 92.0.4515.159,,,2021-09-01 09:37:37,2021-09-01 09:37:38,1.078s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb""), birthmonth, true)",Chrome 92.0.4515.159,,,2021-09-01 09:37:38,2021-09-01 09:37:39,1.194s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 92.0.4515.159,,,2021-09-01 09:37:39,2021-09-01 09:37:39,0.006s,PASSED

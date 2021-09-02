@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'), '1 (231) 231-2312')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
-    birthmonth , true)
+    birthmonth, true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day123456789101112131415161718192021_71ec95'), 
     birthday, true)
@@ -61,4 +61,6 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Save'))
 
 WebUI.delay(30)
+
+WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Cancel'))
 

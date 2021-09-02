@@ -40,76 +40,85 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3aa42082-06d5-4583-b73f-cf9228889236</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Add member renterdash test data</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fname</value>
          <variableId>6b065f9d-0dcf-4c00-bfd9-88977b7e27c0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lname</value>
          <variableId>db3a23f1-ccd8-4461-86fc-c95ca8079fd9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>b2424e3b-eefa-4115-bd6b-27870e4bd1a6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>birthday</value>
          <variableId>162c153c-edc6-4804-ba1a-ec059feca03b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>birthyear</value>
          <variableId>319b342a-3acd-49fb-8950-11b0ed82827e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
          <variableId>945bc184-f66e-4205-8180-30786e9eda4a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>employmentstatus</value>
          <variableId>732cde42-f928-455e-9de9-61f1b4394d37</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>employer</value>
          <variableId>dd509c69-0c1a-4b3d-951b-2a6b6629f510</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobtitle</value>
          <variableId>31939a78-d4a0-4d31-bccc-dccaef561a98</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>workemail</value>
          <variableId>673fd730-9042-444e-9a70-6b2bd746775f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>credit </value>
          <variableId>184214d5-81e9-4df2-bf33-a8cc2f098e3a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>3aa42082-06d5-4583-b73f-cf9228889236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>birthmonth</value>
          <variableId>72498425-b0c0-43fc-8c2e-3724f9a03a83</variableId>
       </variableLink>
    </testCaseLink>

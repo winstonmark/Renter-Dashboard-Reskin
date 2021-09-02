@@ -21,16 +21,7 @@
             <profileName>QAinstance_jam.renterdashboard</profileName>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS01 - Login, Add Member</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>QAinstance_jam.renterdashboard</profileName>
-            <runConfigurationId>Edge</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS01 - Login, Add Member</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
