@@ -14,4 +14,9 @@
       <initValue>'jerrold+hthornhill334@onerent.co'</initValue>
       <name>Email_Jerrold2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'winston+teststaging69@poplarhomes.com'</initValue>
+      <name>staging_email1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

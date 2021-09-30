@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Login, Add Member" time="88.921" tests="3" failures="1" errors="0">
+   <testsuite name="TS01 - Login, Add Member" tests="3" failures="1" errors="0" time="88.921" skipped="0" timestamp="2021-09-30 12:58:47" hostname="admin - DESKTOP-53OG93O" id="Test Suites/Profile_Tab_TestSuite/Group_Details_TestSuite/Actions_TestSuite/TS01 - Login, Add Member">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210930_125831\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS01 - Login, Add Member\\20210930_125831"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210930_125831\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS01 - Login, Add Member\\20210930_125831\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210930_125831\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS01 - Login, Add Member\\20210930_125831\\1632978014598.png"/>
+         <property name="hostName" value="admin - DESKTOP-53OG93O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.61"/>
+         <property name="hostAddress" value="192.168.1.34"/>
+         <property name="sessionId" value="d4763871ee369efc9dad2170fcfbbef6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC01 - login_renterdash" time="22.104" classname="Test Cases/Login/TC01 - login_renterdash" status="PASSED">
+         <system-out><![CDATA[2021-09-30 12:58:47 - [TEST_CASE][PASSED] - Test Cases/Login/TC01 - login_renterdash: Test Cases/Login/TC01 - login_renterdash
+
+2021-09-30 12:58:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-09-30 12:58:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 12:58:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-09-30 12:58:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-30 12:58:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-30 12:58:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-30 12:58:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-30 12:58:53 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://staging.cerberuslink.net/login' successfully
+
+2021-09-30 12:58:57 - [MESSAGE][PASSED] - Navigate to 'https://staging.cerberuslink.net/login' successfully
+
+2021-09-30 12:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/input__email"), staging_email1): Text 'winston+teststaging69@poplarhomes.com' is set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'
+
+2021-09-30 12:59:08 - [MESSAGE][PASSED] - Text 'winston+teststaging69@poplarhomes.com' is set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'
+
+2021-09-30 12:59:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/input__password"), "L2RytoUJxWN6547N/AXOdw=="): Text ****** has been set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'
+
+2021-09-30 12:59:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'
+
+2021-09-30 12:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in")): Object: 'Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in' is clicked on
+
+2021-09-30 12:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in' is clicked on
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member" time="50.963" classname="Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member" status="PASSED">
+         <system-out><![CDATA[2021-09-30 12:59:10 - [TEST_CASE][PASSED] - Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member: Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 12:59:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-09-30 12:59:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is visible
+
+2021-09-30 12:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is visible
+
+2021-09-30 12:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-09-30 12:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-09-30 12:59:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is visible
+
+2021-09-30 12:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is visible
+
+2021-09-30 12:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-09-30 12:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-09-30 12:59:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is visible
+
+2021-09-30 12:59:35 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is visible
+
+2021-09-30 12:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is clicked on
+
+2021-09-30 12:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is clicked on
+
+2021-09-30 12:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName"), fname): Text 'Leeanna' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'
+
+2021-09-30 12:59:37 - [MESSAGE][PASSED] - Text 'Leeanna' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'
+
+2021-09-30 12:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName"), lname): Text 'Britton' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'
+
+2021-09-30 12:59:37 - [MESSAGE][PASSED] - Text 'Britton' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'
+
+2021-09-30 12:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1"), email): Text 'LeeannaBritton523452@gmail.com' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'
+
+2021-09-30 12:59:38 - [MESSAGE][PASSED] - Text 'LeeannaBritton523452@gmail.com' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'
+
+2021-09-30 12:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone"), "1 (231) 231-2312"): Text '1 (231) 231-2312' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'
+
+2021-09-30 12:59:39 - [MESSAGE][PASSED] - Text '1 (231) 231-2312' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'
+
+2021-09-30 12:59:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Month"), birthmonth, true): All options with value 'February' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Month'  using regular expression
+
+2021-09-30 12:59:41 - [MESSAGE][PASSED] - All options with value 'February' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Month'  using regular expression
+
+2021-09-30 12:59:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Day"), birthday, true): All options with value '13' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day'  using regular expression
+
+2021-09-30 12:59:43 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day'  using regular expression
+
+2021-09-30 12:59:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Year"), birthyear, true): All options with value '1981' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+
+2021-09-30 12:59:46 - [MESSAGE][PASSED] - All options with value '1981' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+
+2021-09-30 12:59:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress"), address): Text '1749 Laine Ave, Santa Clara, CA, 95051  ' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress'
+
+2021-09-30 12:59:47 - [MESSAGE][PASSED] - Text '1749 Laine Ave, Santa Clara, CA, 95051  ' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress'
+
+2021-09-30 12:59:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0' is visible
+
+2021-09-30 12:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0' is visible
+
+2021-09-30 12:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0")): Object: 'Object Repository/Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0' is clicked on
+
+2021-09-30 12:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0' is clicked on
+
+2021-09-30 12:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__unitNumber"), "121"): Text '121' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__unitNumber'
+
+2021-09-30 12:59:50 - [MESSAGE][PASSED] - Text '121' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__unitNumber'
+
+2021-09-30 12:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Employed")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Employed' is clicked on
+
+2021-09-30 12:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Employed' is clicked on
+
+2021-09-30 12:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer"), employer): Text 'Onerent' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer'
+
+2021-09-30 12:59:51 - [MESSAGE][PASSED] - Text 'Onerent' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__employer'
+
+2021-09-30 12:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement"), jobtitle): Text 'Construction Manager' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement'
+
+2021-09-30 12:59:52 - [MESSAGE][PASSED] - Text 'Construction Manager' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__employmentStatement'
+
+2021-09-30 12:59:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__declaredMonthlyIncome"), "2000"): Text '2000' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__declaredMonthlyIncome'
+
+2021-09-30 12:59:53 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__declaredMonthlyIncome'
+
+2021-09-30 12:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail"), workemail): Text 'LeeannaBritton523452@onerent.co' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail'
+
+2021-09-30 12:59:54 - [MESSAGE][PASSED] - Text 'LeeannaBritton523452@onerent.co' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__workEmail'
+
+2021-09-30 12:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Actions_AddMember/Page_Poplar Homes/button_Save")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Save' is clicked on
+
+2021-09-30 12:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Save' is clicked on
+
+2021-09-30 12:59:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-09-30 12:59:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-09-30 12:59:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait"), 30)): null
+
+2021-09-30 12:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait' is visible
+
+2021-09-30 12:59:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-09-30 12:59:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-09-30 12:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait' is clicked on
+
+2021-09-30 12:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait' is clicked on
+
+2021-09-30 12:59:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details"), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details' is present
+
+2021-09-30 13:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details' is present
+
+2021-09-30 13:00:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details"), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details' is visible
+
+2021-09-30 13:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details' is visible
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member" time="13.006" classname="Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-09-30 13:00:01 - [TEST_CASE][FAILED] - Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member: Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-09-30 13:00:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is visible
+
+2021-09-30 13:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is visible
+
+2021-09-30 13:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-09-30 13:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted' is clicked on
+
+2021-09-30 13:00:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is visible
+
+2021-09-30 13:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is visible
+
+2021-09-30 13:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-09-30 13:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions' is clicked on
+
+2021-09-30 13:00:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member"), 30, STOP_ON_FAILURE): Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is visible
+
+2021-09-30 13:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is visible
+
+2021-09-30 13:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member")): Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is clicked on
+
+2021-09-30 13:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member' is clicked on
+
+2021-09-30 13:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName"), fname): Text 'Georgianne ' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'
+
+2021-09-30 13:00:05 - [MESSAGE][PASSED] - Text 'Georgianne ' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__firstName'
+
+2021-09-30 13:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName"), lname): Text 'Snow' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'
+
+2021-09-30 13:00:06 - [MESSAGE][PASSED] - Text 'Snow' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__lastName'
+
+2021-09-30 13:00:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1"), email): Text 'GeorgianneSnow234523@gmail.com' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'
+
+2021-09-30 13:00:07 - [MESSAGE][PASSED] - Text 'GeorgianneSnow234523@gmail.com' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__email_1'
+
+2021-09-30 13:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone"), "1 (231) 231-2312"): Text '1 (231) 231-2312' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'
+
+2021-09-30 13:00:08 - [MESSAGE][PASSED] - Text '1 (231) 231-2312' is set on object 'Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'
+
+2021-09-30 13:00:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Month"), birthmonth, true): All options with value 'January' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Month'  using regular expression
+
+2021-09-30 13:00:09 - [MESSAGE][PASSED] - All options with value 'January' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Month'  using regular expression
+
+2021-09-30 13:00:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Day"), birthday, true): All options with value '20' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day'  using regular expression
+
+2021-09-30 13:00:11 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day'  using regular expression
+
+2021-09-30 13:00:11 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Actions_AddMember/Page_Poplar Homes/select_Year"), birthyear, true): Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Script1629961030858.run(Script1629961030858.groovy:46)
+	... 13 more
+)
+
+2021-09-30 13:00:14 - [MESSAGE][FAILED] - Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Script1629961030858.run(Script1629961030858.groovy:46)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\admin\\git\\Renter-Dashboard-Reskin\\Reports\\20210930_125831\\Profile_Tab_TestSuite\\Group_Details_TestSuite\\Actions_TestSuite\\TS01 - Login, Add Member\\20210930_125831\\1632978014598.png]]
+
+2021-09-30 13:00:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-30 13:00:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-30 13:00:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-09-30 13:00:01 - [TEST_CASE][FAILED] - Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member: Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-30 12:58:47 - [TEST_SUITE][FAILED] - TS01 - Login, Add Member: Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-09-30 12:58:47 - [TEST_SUITE][FAILED] - TS01 - Login, Add Member: Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1999' of object 'Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at TC04 - Add Member.run(TC04 - Add Member:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632977911404.run(TempTestSuite1632977911404.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-53OG93O', ip: '192.168.1.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4763871ee369efc9dad2170fcfbbef6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:279)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

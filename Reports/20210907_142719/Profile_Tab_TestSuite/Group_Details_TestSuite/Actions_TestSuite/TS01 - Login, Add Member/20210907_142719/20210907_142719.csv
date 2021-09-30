@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"TS01 - Login, Add Member",Chrome 92.0.4515.159,,,2021-09-07 14:27:34,2021-09-07 14:28:31,56.729s,FAILED
+,,,,,,,
+Test Cases/Login/TC01 - login_renterdash,Chrome 92.0.4515.159,,,2021-09-07 14:27:35,2021-09-07 14:28:17,42.055s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 92.0.4515.159,,,2021-09-07 14:27:35,2021-09-07 14:27:36,0.045s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-09-07 14:27:37,2021-09-07 14:27:42,4.886s,PASSED
+navigateToUrl(URL),Chrome 92.0.4515.159,,,2021-09-07 14:27:42,2021-09-07 14:27:48,6.191s,PASSED
+"setText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__email""), Email_Jerrold2)",Chrome 92.0.4515.159,,,2021-09-07 14:27:48,2021-09-07 14:27:58,10.317s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/input__password""), ""pK4N7w/gtfGay7FzPRwAOg=="")",Chrome 92.0.4515.159,,,2021-09-07 14:27:58,2021-09-07 14:27:59,0.824s,PASSED
+"click(findTestObject(""Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in""))",Chrome 92.0.4515.159,,,2021-09-07 14:27:59,2021-09-07 14:28:00,0.635s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-07 14:28:00,2021-09-07 14:28:10,10.129s,PASSED
+"waitForElementVisible(findTestObject(""Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted""), 10, STOP_ON_FAILURE)",Chrome 92.0.4515.159,,,2021-09-07 14:28:10,2021-09-07 14:28:17,6.952s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 92.0.4515.159,,,2021-09-07 14:28:17,2021-09-07 14:28:17,0.008s,PASSED
+,,,,,,,
+Test Cases/Profile_Tab/Group_Details/Actions/TC04 - Add Member,Chrome 92.0.4515.159,,,2021-09-07 14:28:17,2021-09-07 14:28:31,13.157s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 92.0.4515.159,,,2021-09-07 14:28:17,2021-09-07 14:28:17,0.003s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted""))",Chrome 92.0.4515.159,,,2021-09-07 14:28:18,2021-09-07 14:28:19,0.574s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions""))",Chrome 92.0.4515.159,,,2021-09-07 14:28:19,2021-09-07 14:28:30,10.735s,PASSED
+"click(findTestObject(""Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member""))",Chrome 92.0.4515.159,,,2021-09-07 14:28:30,2021-09-07 14:28:31,0.853s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 92.0.4515.159,,,2021-09-07 14:28:31,2021-09-07 14:28:31,0.000s,PASSED

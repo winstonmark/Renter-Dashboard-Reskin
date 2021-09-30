@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Day123456789101112131415161718192021_71ec95</name>
+   <name>select_Day</name>
    <tag></tag>
    <elementGuidId>d4f76719-1ee9-4069-8564-e01cc8c5e074</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

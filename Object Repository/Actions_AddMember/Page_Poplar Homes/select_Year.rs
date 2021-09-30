@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Year20212020201920182017201620152014_f874ed</name>
+   <name>select_Year</name>
    <tag></tag>
    <elementGuidId>3ba27f99-ce55-4ba0-9cbc-d8fbe0c1c8bc</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

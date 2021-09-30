@@ -45,7 +45,7 @@
          <id>3aa42082-06d5-4583-b73f-cf9228889236</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-5</value>
+            <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Add member renterdash test data</testDataId>
       </testDataLink>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb</name>
+   <name>select_Month</name>
    <tag></tag>
    <elementGuidId>7f9dd9dc-0697-4871-a871-154f62be662f</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

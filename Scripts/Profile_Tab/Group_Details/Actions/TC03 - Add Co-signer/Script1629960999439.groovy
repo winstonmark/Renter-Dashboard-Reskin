@@ -31,13 +31,13 @@ WebUI.setText(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosi
 
 WebUI.setText(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/input__phone'), '1 (231) 231-2312')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
+WebUI.selectOptionByValue(findTestObject('Actions_Addcosigner/Page_addcosigner/select_Month'), 
     'March', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/select_Day123456789101112131415161718192021_40ab5b'), 
+WebUI.selectOptionByValue(findTestObject('Actions_Addcosigner/Page_addcosigner/select_Day'), 
     '9', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/select_Year20212020201920182017201620152014_f874ed'), 
+WebUI.selectOptionByValue(findTestObject('Actions_Addcosigner/Page_addcosigner/select_Year'), 
     '1990', true)
 
 WebUI.setText(findTestObject('Object Repository/Actions_Addcosigner/Page_addcosigner/input__fullAddress'), '9')

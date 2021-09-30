@@ -10,7 +10,7 @@
       <description></description>
       <id>d0126e1b-6ded-4f1a-8c97-8ea8acab5f43</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>URL</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted'), 30, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/div_Group DetailsCompleted'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions'), 30, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Actions'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member'), 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/button_Add a Member'))
 
@@ -31,18 +39,15 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__phone'), '1 (231) 231-2312')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
-    birthmonth, true)
+WebUI.selectOptionByValue(findTestObject('Actions_AddMember/Page_Poplar Homes/select_Month'), birthmonth, true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_Day123456789101112131415161718192021_71ec95'), 
-    birthday, true)
+WebUI.selectOptionByValue(findTestObject('Actions_AddMember/Page_Poplar Homes/select_Day'), birthday, true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/select_Year20212020201920182017201620152014_f874ed'), 
-    birthyear, true)
+WebUI.selectOptionByValue(findTestObject('Actions_AddMember/Page_Poplar Homes/select_Year'), birthyear, true)
 
 WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Homes/input__fullAddress'), address)
 
-WebUI.delay(5)
+WebUI.waitForElementVisible(findTestObject('Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0'), 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Actions_AddMember/Page_AddMember_dropdownlist/dropdown_item0'))
 
@@ -60,7 +65,18 @@ WebUI.setText(findTestObject('Object Repository/Actions_AddMember/Page_Poplar Ho
 
 WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Save'))
 
-WebUI.delay(30)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Actions_AddMember/Page_Poplar Homes/button_Cancel'),FailureHandling.CONTINUE_ON_FAILURE)
+if (WebUI.waitForElementVisible(findTestObject('Actions_AddMember/Page_add_member_toast/toast_Adding new member. Please wait'), 
+    30)) {
+	
+    WebUI.waitForElementPresent(findTestObject('Actions_AddMember/Page_add_member_toast/toast_Successfully added test automates details'), 
+        30, FailureHandling.CONTINUE_ON_FAILURE)
+		
+	//get the name for the specific toast 
+	
+} else {
+	def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
+	WebUI.takeScreenshot(["Screenshot" : timestamp])
+}
 

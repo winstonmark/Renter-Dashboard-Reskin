@@ -21,13 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'), GlobalVariable.Email_Jerrold2)
+WebUI.setText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__email'), GlobalVariable.staging_email1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'), 'pK4N7w/gtfGay7FzPRwAOg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/input__password'), 'L2RytoUJxWN6547N/AXOdw==')
 
 WebUI.click(findTestObject('Object Repository/Login_TestObjects/Page_Poplar Homes/button_Log in'))
-
-WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Login_TestObjects/Page_Poplar Homes/div_General DetailsCompleted'), 10, FailureHandling.STOP_ON_FAILURE)
 

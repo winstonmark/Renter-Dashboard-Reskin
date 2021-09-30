@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Day123456789101112131415161718192021_40ab5b</name>
+   <name>select_Day</name>
    <tag></tag>
    <elementGuidId>f15486e9-c50d-4b97-8aa7-1212fb7ec169</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div[2]/div[5]/div/div[2]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

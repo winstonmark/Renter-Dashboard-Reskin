@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb</name>
+   <name>select_Month</name>
    <tag></tag>
    <elementGuidId>ed2f820c-7027-4a30-a56f-b2904f8e9624</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div[2]/div[5]/div/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

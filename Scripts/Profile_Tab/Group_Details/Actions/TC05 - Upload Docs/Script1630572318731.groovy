@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Actions_AddMember/Page_AddMember_UploadDocs/btn_upload_id'))
+
+WebUI.uploadFile(findTestObject('Actions_AddMember/Page_AddMember_UploadDocs/btn_upload_id'), 'C:\\Users\\admin\\Documents\\Test.png')
+
+WebUI.delay(30)
+

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Year20212020201920182017201620152014_f874ed</name>
+   <name>select_Year</name>
    <tag></tag>
    <elementGuidId>0fef953d-02b6-4164-beac-cf6fc60993f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div[2]/div[5]/div/div[3]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
